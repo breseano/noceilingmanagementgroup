@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>No Ceiling Management Group</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #0F172A;
+      color: #E6EEF8;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header .logo {
+      display: flex;
+      align-items: center;
+    }
+    header .logo img {
+      width: 50px;
+      height: 50px;
+      margin-right: 15px;
+    }
+    header nav {
+      display: flex;
+      gap: 20px;
+    }
+    header nav a {
+      color: #E6EEF8;
+      text-decoration: none;
+      padding: 8px 15px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    header nav a:hover {
+      background-color: #FBBF24;
+      color: #000;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .promo-banner {
+      background-color: #1F2937;
+      padding: 50px 0;
+      color: #fff;
+    }
+    .promo-banner h2 {
+      font-size: 2rem;
+    }
+    .promo-banner .promo-tier {
+      background-color: #374151;
+      border-radius: 8px;
+      padding: 30px;
+      margin: 10px;
+      width: 250px;
+      display: inline-block;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    .promo-banner .promo-tier h3 {
+      color: #FBBF24;
+    }
+    .testimonial {
+      background-color: #1F2937;
+      padding: 50px 20px;
+      color: #fff;
+    }
+    .testimonial .testimonial-card {
+      background-color: #374151;
+      padding: 30px;
+      margin: 10px;
+      border-radius: 8px;
+      display: inline-block;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      width: 280px;
+    }
+    .testimonial .testimonial-card img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="/logo.png" alt="NCMG Logo">
+      <div>
+        <h1>No Ceiling Management Group</h1>
+        <p>NCMG — Find your next level</p>
+      </div>
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#submit">Submit</a>
+      <a href="#services">Services</a>
+      <a href="#team">Team</a>
+      <a href="#artists">Artists</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section id="home">
+    <h2>Welcome to NCMG</h2>
+    <p>Your one-stop platform for discovering new music and artists.</p>
+  </section>
+  <section class="promo-banner">
+    <h2>Exclusive Deals for Artists</h2>
+    <p>Choose the best tier to elevate your music career with NCMG</p>
+    <div class="promo-tier">
+      <h3>Bronze</h3>
+      <p>Basic Promotion</p>
+      <p>Social Media Support</p>
+      <p>1 Song Review</p>
+      <button>Sign Up</button>
+    </div>
+    <div class="promo-tier">
+      <h3>Silver</h3>
+      <p>Advanced Promotion</p>
+      <p>Press & Radio Outreach</p>
+      <p>2 Songs Review</p>
+      <button>Sign Up</button>
+    </div>
+    <div class="promo-tier">
+      <h3>Gold</h3>
+      <p>Premium Promotion</p>
+      <p>Full Media Kit Creation</p>
+      <p>Complete Album Review</p>
+      <button>Sign Up</button>
+    </div>
+  </section>
+  <section id="testimonials" class="testimonial">
+    <h2>What Our Artists Say</h2>
+    <div class="testimonial-card">
+      <p>"No Ceiling Management Group took my career to the next level. Their support is unmatched!"</p>
+      <div>
+        <img src="/artist-photo.jpg" alt="Artist">
+        <div>
+          <strong>Jane Doe</strong>
+          <p>Independent Artist</p>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <p>"Thanks to NCMG, I got featured on major platforms. The team really knows what they're doing!"</p>
+      <div>
+        <img src="/another-artist-photo.jpg" alt="Artist">
+        <div>
+          <strong>John Smith</strong>
+          <p>Up-and-coming Rapper</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
